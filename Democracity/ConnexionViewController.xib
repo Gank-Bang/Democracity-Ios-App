@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="ipad12_9rounded" orientation="portrait" layout="fullscreen" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ViewController" customModule="Democracity" customModuleProvider="target">
+            <connections>
+                <outlet property="connexionButton" destination="3Vv-1P-Ha3" id="Bwg-75-zju"/>
+                <outlet property="passwordField" destination="P1K-I9-c2H" id="xeA-Zc-Za2"/>
+                <outlet property="usernameField" destination="47m-uJ-pWL" id="agW-am-Agc"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background2" translatesAutoresizingMaskIntoConstraints="NO" id="BxK-Oi-dqD">
+                    <rect key="frame" x="0.0" y="-18" width="1024" height="1384"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="47m-uJ-pWL">
+                    <rect key="frame" x="445" y="484" width="134.5" height="39"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Vv-1P-Ha3">
+                    <rect key="frame" x="466" y="797" width="92.5" height="31"/>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="filled" title="Connexion"/>
+                    <connections>
+                        <action selector="pressConnexion:" destination="-1" eventType="touchUpInside" id="hZc-xF-phy"/>
+                    </connections>
+                </button>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="P1K-I9-c2H">
+                    <rect key="frame" x="448" y="634" width="128" height="39"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="47m-uJ-pWL" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" constant="-179.5" id="52w-mb-H0v"/>
+                <constraint firstItem="47m-uJ-pWL" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="6QM-RR-3PK"/>
+                <constraint firstItem="3Vv-1P-Ha3" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="IRd-JX-9LX"/>
+                <constraint firstItem="P1K-I9-c2H" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" constant="-29.5" id="ei7-FF-RkM"/>
+                <constraint firstItem="P1K-I9-c2H" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="kcD-K2-AQt"/>
+                <constraint firstItem="3Vv-1P-Ha3" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" constant="129.5" id="lpD-nH-AD9"/>
+            </constraints>
+            <point key="canvasLocation" x="137.109375" y="99.707174231332345"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="background2" width="1114" height="1997"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
