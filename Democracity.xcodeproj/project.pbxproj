@@ -14,6 +14,8 @@
 		A1CDDAAB27F75D1F000FB853 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1CDDAA927F75D1F000FB853 /* LaunchScreen.storyboard */; };
 		A1CDDAB427F76FED000FB853 /* ConnexionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1CDDAB227F76FED000FB853 /* ConnexionViewController.swift */; };
 		A1CDDAB527F76FED000FB853 /* ConnexionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1CDDAB327F76FED000FB853 /* ConnexionViewController.xib */; };
+		A1F270EE2800746F00A0D97A /* Point.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F270ED2800746F00A0D97A /* Point.swift */; };
+		A1F270F0280084CA00A0D97A /* PointView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F270EF280084CA00A0D97A /* PointView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		A1CDDAAC27F75D1F000FB853 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A1CDDAB227F76FED000FB853 /* ConnexionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnexionViewController.swift; sourceTree = "<group>"; };
 		A1CDDAB327F76FED000FB853 /* ConnexionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ConnexionViewController.xib; sourceTree = "<group>"; };
+		A1F270ED2800746F00A0D97A /* Point.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Point.swift; sourceTree = "<group>"; };
+		A1F270EF280084CA00A0D97A /* PointView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				A1CDDAB327F76FED000FB853 /* ConnexionViewController.xib */,
 				A198700227FD926E002F96CF /* MapViewController.swift */,
 				A198700327FD926E002F96CF /* MapViewController.xib */,
+				A1F270ED2800746F00A0D97A /* Point.swift */,
+				A1F270EF280084CA00A0D97A /* PointView.swift */,
 				A1CDDAA727F75D1F000FB853 /* Assets.xcassets */,
 				A1CDDAA927F75D1F000FB853 /* LaunchScreen.storyboard */,
 				A1CDDAAC27F75D1F000FB853 /* Info.plist */,
@@ -142,6 +148,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1F270F0280084CA00A0D97A /* PointView.swift in Sources */,
+				A1F270EE2800746F00A0D97A /* Point.swift in Sources */,
 				A1CDDAB427F76FED000FB853 /* ConnexionViewController.swift in Sources */,
 				A198700427FD926E002F96CF /* MapViewController.swift in Sources */,
 				A1CDDA9F27F75D1E000FB853 /* AppDelegate.swift in Sources */,

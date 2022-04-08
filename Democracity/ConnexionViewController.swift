@@ -7,6 +7,7 @@
 
 import UIKit
 
+
 class ConnexionViewController: UIViewController {
 
     @IBOutlet weak var usernameField: UITextField!
@@ -21,10 +22,11 @@ class ConnexionViewController: UIViewController {
 
 
     @IBAction func pressConnexion(_ sender: Any) {
+        //usernameField.text == "a" && passwordField.text == "a"
         
-        if(usernameField.text == "admin" && passwordField.text == "admin"){
-            print("reussi")
-        }
+            self.navigationController?.pushViewController(MapViewController(),animated: false)
+        
+        
     }
     
 
